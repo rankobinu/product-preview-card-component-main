@@ -60,9 +60,9 @@
   font-weight: 500;
   font-size: 14px;
 }
-.ship:hover{
-        background-color: hsl(212, 21%, 14%);
-    }
+.cont .ship:hover {
+  background-color: hsl(212, 21%, 14%);
+}
 .cont .price {
   display: flex;
   margin-bottom: 1.5em;
