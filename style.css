@@ -61,7 +61,7 @@
   font-size: 14px;
 }
 .ship:hover{
-        background-color: $neutr1;
+        background-color: hsl(212, 21%, 14%);
     }
 .cont .price {
   display: flex;
