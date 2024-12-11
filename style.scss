@@ -1,0 +1,43 @@
+@import"components/_image.scss";
+@import"components/variables.scss";
+@import"components/content.scss";
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: $pr2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 92vw;
+    background-color:$neutr3;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    padding-bottom: 2em;
+    border-radius: 15px 15px 10px 10px;
+    margin-bottom: 1.5em;
+
+}
+@media only screen and (min-width:700px) {
+    body{
+        width:99vw;
+        height:90vh;
+        overflow: hidden;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 15px;
+        padding-bottom: 0;
+        max-height: 70%;
+        max-width: 45%;
+    }
+    
+}
+
