@@ -1,0 +1,83 @@
+.cont{
+    width:100%;
+    height: 40vh;
+    padding:0em 1.2em 20em 1.5em;
+    margin-top: 1em;
+    .head,p,.price2{
+        font-family: Montserrat;
+    }
+    .head,.disc,.price2{
+        color:$neutr2;
+    }
+    h2,.price1{
+        font-family: Fraunces;
+    }
+    h2{
+        font-weight: 700;
+        font-size: 2.2em;
+        line-height: 1em;
+        margin-bottom: 0.1em;
+        margin-top: 0.3em;
+    }
+    .head{
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .price{
+        display:flex;
+        margin-bottom: 1.5em;
+    }
+    .price1{
+        font-size: 2.2em;
+        font-weight: 700;
+        color:$pr1;
+        display: inline;
+        margin-right: 0.5em;
+        
+    }
+    .price2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .ship{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height: 3em;
+        background-color: $pr1;
+        color:$neutr3;
+        text-align: center;
+        margin: auto;
+        font-weight:700 ;
+        border-radius: 10px;
+    }
+    .disc{
+        font-size: 0.9em;
+        line-height: 1.5em;
+        font-weight: 500;
+    }
+}
+@media only screen and (min-width:700px) {
+    .cont{
+        height: inherit;
+        margin-top: 1em;
+        padding-top: 0;
+    }
+    h2{
+        font-size: 1.8em;
+    }
+    .disc{
+        font-size: 0.6em;
+        line-height: 1em;
+        font-weight: 300;
+    }
+    //.ship{
+        //margin-top: -2em;
+    //}
+}
